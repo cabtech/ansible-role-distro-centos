@@ -2,4 +2,15 @@
 dependencies:
 - src: git+https://github.com/cabtech/ansible-role-family-redhat.git
   version: '1.0.0'
+
+galaxy_info:
+  author: Tim Short
+  description: Standard CentOS build
+  license: GPL v3
+  min_ansible_version: "2"
+  namespace: cabtech
+  role_name: ansible_role_distro_centos
+  platforms:
+  - name: EL
+    versions: ["all"]
 ...
